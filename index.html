@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Reformas & Sob Medidas | ClassicosTerna</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      color: #1a1a1a;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    /* Fundo claro com logo suave */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("logo.png") center/500px no-repeat;
+      filter: blur(22px);
+      opacity: 0.18;
+      z-index: -1;
+    }
+
+    .container {
+      text-align: center;
+      padding: 30px;
+      max-width: 380px;
+      width: 100%;
+    }
+
+    /* LOGO MAIOR */
+    .logo-circle {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 25px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    }
+
+    .logo-circle img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 6px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 28px;
+    }
+
+    .btn-whatsapp {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: #25d366;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px;
+      border-radius: 50px;
+      font-size: 17px;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-whatsapp:hover {
+      transform: scale(1.04);
+      box-shadow: 0 10px 20px rgba(37, 211, 102, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="logo-circle">
+      <img src="logo.png" alt="ClassicosTerna">
+    </div>
+
+    <h1>Reformas & Sob Medidas</h1>
+    <p>ClassicosTerna • Curitiba e Região Metropolitana</p>
+
+    <a class="btn-whatsapp" 
+       href="https://wa.me/5541996704229" 
+       target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      Falar no WhatsApp
+    </a>
+
+  </div>
+
+</body>
+</html>
